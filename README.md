@@ -42,5 +42,25 @@ Results are visualized for easy understanding.
 
 ---
 
+## Setup Instructions
+1) Install dependencies
+2) Start Ollama + Pull Model
+   ``` python
+   ollama run tinyllama
+   ```
+3) Run the App
+    ``` python
+   streamlit run app.py
+   ```
+## Tech Stack
+* Streamlit – UI Dashboard
+* LangChain – LLM Agent Orchestration
+* Ollama – Local LLM Runtime
+* TinyLLaMA – Lightweight LLM
+* Scikit-learn – Linear Regression
 
-
+## Future Work
+* Auto-restock dispatch to warehouse agent
+* POS integration for real-time sales
+* Advanced forecasting models (XGBoost)
+* Auto-generated reports
